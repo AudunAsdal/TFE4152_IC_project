@@ -1,36 +1,37 @@
 [aimspice]
 [description]
-1912
+1939
 Photo_sensor
 .include p18_cmos_models.inc
 
 .subckt PhotoDiode  VDD N1_R1C1 
-I1_R1C1  VDD   N1_R1C1   DC  Ipd_1			!subcircuit for photo diode
+I1_R1C1 VDD N1_R1C1 DC Ipd_1			!subcircuit for photo diode
 d1 N1_R1C1 vdd dwell 1
 .model dwell d cj0=1e-14 is=1e-12 m=0.5 bv=40
 Cd1 N1_R1C1 VDD 30f
 .ends 
 
-.subckt Pixel VDD VSS EXPOSE ERASE NRE OUT N3
+.subckt Pixel VDD VSS EXPOSE ERASE NRE OUT N3 N2
 XPhoto_diode VDD N1 PhotoDiode 
 M1 N1 EXPOSE N2 VSS NMOS L=0.36U W=5.04U		!subcircuit for pixel
 M2 N2 ERASE VSS VSS NMOS L=1.08U W=1.08U
 M3 VSS N2 N3 VDD PMOS L=0.36U W=5.04U
-CS N2 VSS 1.25p
-M4 N3 NRE OUT VDD PMOS L=1U W=1U
+CS N2 VSS 1.35p
+M4 N3 NRE OUT VDD PMOS L=0.36U W=5.04U
 .ends
 
-XPixel_1 1 0 EXPOSE ERASE NRE_R1 OUT1 test1 Pixel
-Xpixel_2 1 0 EXPOSE ERASE NRE_R2 OUT1 test2 Pixel
+XPixel_1 1 0 EXPOSE ERASE NRE_R1 OUT1 N3_1 N2_1 Pixel
+Xpixel_2 1 0 EXPOSE ERASE NRE_R2 OUT1 N3_2 N2_2 Pixel
 
 
-MC1 OUT1 OUT1 1 1 PMOS L=0.36U W=5.08U
+MC1 OUT1 OUT1 1 1 PMOS L=1.08U W=1.08U
 CC1 OUT1 0 3p
 
-Ctest1 test1 0 0p
-Ctest2 test2 0 0p
 
 
+
+
+*---Testbench---
 
 .param Ipd_1 = 750p ! Photodiode current, range [50 pA, 750 pA]
 .param VDD = 1.8 ! Supply voltage
@@ -52,9 +53,14 @@ VERASE ERASE 0 dc 0 pulse(0 VDD ERASE_DLY TRF TRF CLK_PERIOD PERIOD)
 VNRE_R1 NRE_R1 0 dc 0 pulse(VDD 0 NRE_R1_DLY TRF TRF CLK_PERIOD PERIOD)
 VNRE_R2 NRE_R2 0 dc 0 pulse(VDD 0 NRE_R2_DLY TRF TRF CLK_PERIOD PERIOD)
 
-.plot V(OUT1) 
-.plot V(test1) V(test2)
+ 
 .plot V(EXPOSE) V(NRE_R1) V(NRE_R2) V(ERASE)
+.plot V(N2_1) V(N2_2) V(N3_1) V(N3_2) V(OUT1)
+.plot V(OUT1)
+
+
+
+
 [options]
 1
 Gmin 1.0E-39
@@ -66,7 +72,7 @@ VCS
 0.05
 [tran]
 0.01ms
-60ms
+10ms
 X
 X
 0
