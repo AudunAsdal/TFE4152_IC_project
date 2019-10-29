@@ -2,6 +2,6 @@
 TemplateId=2
 [OPENDOC|Aldec.Hde.HdePlugIn.7|.\icDesign\src/CTRL_ex_time.v|]
 TemplateId=2
-[OPENDOC|Aldec.WaveFormASDB.7|.\icDesign\src/simulator_1.awc|]
-TemplateId=0
+[OPENDOC|Aldec.Hde.HdePlugIn.7|.\icDesign\src/CTRL_ex_time_tb.v|]
+TemplateId=2
 ActiveDocument=1

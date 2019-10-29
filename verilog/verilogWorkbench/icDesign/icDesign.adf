@@ -24,7 +24,7 @@ LANGUAGE=VERILOG
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
-fileopenfolder=C:\Users\Ole Sivert\OneDrive - NTNU\IC\TFE4152_IC_project\verilog
+fileopenfolder=C:\Users\Ole Sivert\OneDrive - NTNU\IC\TFE4152_IC_project\verilog\verilogWorkbench\icDesign\src
 
 [LocalVerilogSets]
 EnableSLP=1
@@ -42,12 +42,14 @@ Active_lib=
 /CTRL_ex_time.v=-1
 /simulator_1.asdb=-1
 /simulator_1.awc=-1
+/CTRL_ex_time_tb.v=-1
 
 [Files.Data]
 .\src\FSM_ex_control.v=Verilog Source Code
 .\src\CTRL_ex_time.v=Verilog Source Code
 .\src\simulator_1.asdb=Accelerated Waveform File
 .\src\simulator_1.awc=Accelerated Waveform Configuration
+.\src\CTRL_ex_time_tb.v=Verilog Source Code
 
 [SpecTracer]
 WindowVisible=0

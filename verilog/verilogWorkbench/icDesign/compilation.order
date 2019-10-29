@@ -1,2 +1,3 @@
 .\src\FSM_ex_control.v
 .\src\CTRL_ex_time.v
+.\src\CTRL_ex_time_tb.v
