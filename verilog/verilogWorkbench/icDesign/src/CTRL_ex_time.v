@@ -3,7 +3,7 @@ module CTRL_ex_time(Exp_increase, Exp_decrease, Clk, Reset, EX_time);
     input Exp_increase, Exp_decrease, Clk, Reset;
     output EX_time;
 
-    reg[0:5] EX_time;
+    reg[4:0] EX_time;
 
     initial begin
         EX_time = 10;
@@ -19,4 +19,55 @@ module CTRL_ex_time(Exp_increase, Exp_decrease, Clk, Reset, EX_time);
         end
     end
 
+endmodule
+`timescale 1ms/1ms
+module CTRL_ex_time_tb;
+	reg Exp_increase, Exp_decrease, Clk, Reset;
+    reg[4:0] EX_time;
+	CTRL_ex_time DUT(
+        .Exp_increase(Exp_increase), 
+        .Exp_decrease(Exp_decrease), 
+        .Clk(Clk), 
+        .Reset(Reset), 
+        .EX_time(EX_time)
+    );
+	
+	always begin 
+		#1 Clk = ~Clk;
+	end
+	
+	initial begin  
+		Clk = 0;
+		Reset = 0;
+		Exp_decrease = 0;
+        Exp_increase = 1;
+        #2
+        Exp_increase = 0;
+        #2
+        Exp_increase = 1;
+        #2
+        Exp_increase = 0;
+        #2
+        Exp_increase = 1;
+        #2
+        Exp_increase = 0;
+        #2
+        Exp_increase = 1;
+        #2
+        Exp_increase = 0;
+        #2
+        Exp_decrease = 1;
+        #2
+        Exp_decrease = 0;
+        #2
+        Exp_decrease = 1;
+        #2
+        Exp_decrease = 0;
+        #2
+        Exp_decrease = 1;
+        #2
+        Exp_decrease = 0;
+		$finish;
+	end
+	
 endmodule

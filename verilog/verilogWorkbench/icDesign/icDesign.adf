@@ -3,10 +3,13 @@ Current Flow=Generic
 VCS=0
 version=4
 Current Config=compile
+
 [Configurations]
 compile=icDesign
+
 [Library]
 icDesign=.\icDesign\icDesign.lib
+
 [Settings]
 AccessRead=0
 AccessReadWrite=0
@@ -21,21 +24,36 @@ LANGUAGE=VERILOG
 REFRESH_FLOW=1
 FLOWTOOLS=NONE
 FAMILY=
+fileopenfolder=C:\Users\Ole Sivert\OneDrive - NTNU\IC\TFE4152_IC_project\verilog
+
 [LocalVerilogSets]
 EnableSLP=1
 EnableDebug=0
+
 [LocalVhdlSets]
 CompileWithDebug=0
+
 [$LibMap$]
 icDesign=.
 Active_lib=
+
 [Files]
 /FSM_ex_control.v=-1
+/CTRL_ex_time.v=-1
+/simulator_1.asdb=-1
+/simulator_1.awc=-1
+
 [Files.Data]
 .\src\FSM_ex_control.v=Verilog Source Code
+.\src\CTRL_ex_time.v=Verilog Source Code
+.\src\simulator_1.asdb=Accelerated Waveform File
+.\src\simulator_1.awc=Accelerated Waveform Configuration
+
 [SpecTracer]
 WindowVisible=0
+
 [HierarchyViewer]
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+

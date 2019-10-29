@@ -1,29 +1,48 @@
-timestamp=1571734428048
+timestamp=1572365216686
 
 [~A]
 C:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*440*1056
-LastVerilogToplevel=FSM_ex_control
-ModifyID=1
+LastVerilogToplevel=CTRL_ex_time_tb
+ModifyID=13
 Version=74
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time.v=0*25487*26357
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*3913*4577
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v_CTRL_ex_time.v=0*14558*15637
 
 [$root]
-A/$root=22|||1*0
-BinI32/$root=3*0
-SLP=3*104
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216c038fdfd12c4a3052d6c5b329a585ef7
+A/$root=22|||1*32991
+BinI32/$root=3*25260
+SLP=3*25364
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921693800a12f8c608e574fe7e84ca9a99ba
+
+[CTRL_ex_time]
+A/CTRL_ex_time=22|./../src/CTRL_ex_time.v|1|1*33381
+BinI32/CTRL_ex_time=3*25432
+R=./../src/CTRL_ex_time.v|1
+SLP=3*26004
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8b4676a7526d30bd119db453e07b69c180
+
+[CTRL_ex_time_tb]
+A/CTRL_ex_time_tb=22|./../src/CTRL_ex_time.v|24|1*34673
+BinI32/CTRL_ex_time_tb=3*26404
+R=./../src/CTRL_ex_time.v|24
+SLP=3*27303
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|622df5ce6e8bbd2494d9b30ec8c0ad4a77ba627ebf22b57ad99e5f65c12087519d214f7a9a661cdb03c59821e1a94805
 
 [FSM_ex_control]
-A/FSM_ex_control=22|./../src/FSM_ex_control.v|25|1*374
-BinI32/FSM_ex_control=3*172
+A/FSM_ex_control=22|./../src/FSM_ex_control.v|25|1*17001
+BinI32/FSM_ex_control=3*12029
 R=./../src/FSM_ex_control.v|25
-SLP=3*285
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb698d965133638e0f0940b6416ed6b1a58d
+SLP=3*12262
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb69a2bde964218c8ab1748a63bdbfd395a8
 
 [~MFT]
-0=4|0icDesign.mgf|1056|0
-1=2|1icDesign.mgf|374|0
-3=4|3icDesign.mgf|285|0
+0=7|0icDesign.mgf|26357|13277
+1=6|1icDesign.mgf|34673|31629
+3=12|3icDesign.mgf|27303|24829
 
 [~U]
-$root=12|0*0|
-FSM_ex_control=12|0*182||0x10
+$root=12|0*24865|
+CTRL_ex_time=12|0*25063|
+CTRL_ex_time_tb=12|0*25308||0x10
+FSM_ex_control=12|0*13876||0x10
