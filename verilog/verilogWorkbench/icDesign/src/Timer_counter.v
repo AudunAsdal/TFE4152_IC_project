@@ -8,6 +8,11 @@ module Timer_counter(Initial, Start, Clk, Reset, Ovf5);
     always @(posedge Start)begin 
         Current_time = 0;
     end
+
+    always @(posedge Reset)begin
+        Current_time <= 31;
+        Ovf5 <= 0;
+    end
     
     always @(posedge Clk)begin
         if (Current_time < Initial)begin
@@ -15,7 +20,7 @@ module Timer_counter(Initial, Start, Clk, Reset, Ovf5);
         end
         else if (Current_time == Initial)begin
             Ovf5 = 1;
-            Current_time = 32;
+            Current_time = 31;
         end
         else begin
             Ovf5 = 0;
