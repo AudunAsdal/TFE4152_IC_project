@@ -6,16 +6,9 @@ module camera_controller(Init, Exp_increase, Exp_decrease, Clk, Reset, NRE_1, NR
     output NRE_1, NRE_2, ADC, Expose, Erase;
     // Internal registers
     reg [4:0] EX_time;
-    reg Start, Ovf5;
-    Timer_counter Timer(
-        .Initial(EX_time), 
-        .Start(Start), 
-        .Clk(Clk), 
-        .Ovf5(Ovf5), 
-        .Reset(Reset)
-    );
+    wire Start, Ovf5;
 
-    FSM_ex_control FSM(
+    FSM_ex_control FSM(     // the brains of the module, controls outputs
         .Init(Init), 
         .Reset(Reset), 
         .Clk(Clk), 
@@ -28,12 +21,19 @@ module camera_controller(Init, Exp_increase, Exp_decrease, Clk, Reset, NRE_1, NR
         .Start(Start)
     );
 
-    CTRL_ex_time CTRL(
+    CTRL_ex_time CTRL(      // sets exposure time for the photo diodes
         .Exp_increase(Exp_increase), 
         .Exp_decrease(Exp_decrease), 
-        .Clk(Clk), 
-        .Reset(Reset), 
+        .Clk(Clk),
         .EX_time(EX_time)
+    );
+
+    Timer_counter Timer(    // controls the exposure time based on CTRL_ex_time
+        .EX_time(EX_time), 
+        .Start(Start), 
+        .Clk(Clk), 
+        .Ovf5(Ovf5), 
+        .Reset(Reset)
     );
 
 endmodule
