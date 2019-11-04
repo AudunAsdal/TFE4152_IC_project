@@ -3,3 +3,6 @@ i<>.\src\CTRL_ex_time.v
 i<>.\src\CTRL_ex_time_tb.v
 i<>.\src\Timer_counter.v
 i<>.\src\FSM_ex_control_tb.v
+i<>.\src\Timer_counter_tb.v
+i<>.\src\camera_controller_tb.v
+i<>.\src\camera_controller.v

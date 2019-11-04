@@ -26,11 +26,32 @@ module FSM_ex_control_tb;
         Ovf5 = 0;
     end
 	
-	initial begin  
-		Init = 1;
+	initial begin
+		Clk = 0;
+		Reset = 0;
+		Ovf5 = 0;
+		Init = 0;
         #1
-        Init = 0;
-        #120
+        Init = 1;
+		#1
+		Init = 0;
+        #80
+		Init = 1;
+		#1
+		Init = 0;
+		#35
+		Init = 1;
+		#1
+		Init = 0;
+		#2
+		Reset = 1;
+		#1
+		Reset = 0;
+		#30
+		Init = 1;
+		#1
+		Init = 0;
+		#50
 		$finish;
 	end
 	

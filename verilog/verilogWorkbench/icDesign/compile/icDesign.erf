@@ -1,8 +1,14 @@
 MESSAGE "Pass 1. Scanning modules hierarchy."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
 BEGINPROGRESS Compiling...
+UPDATEPROGRESS 4
+UPDATEPROGRESS 8
+UPDATEPROGRESS 13
+UPDATEPROGRESS 17
+UPDATEPROGRESS 21
+UPDATEPROGRESS 26
+UPDATEPROGRESS 30
 UPDATEPROGRESS 35
-MESSAGE_SP VCP2113 "Module FSM_ex_control found in current working library."
 MESSAGE "Pass 2. Processing instantiations."
 UPDATEPROGRESS 45
 MESSAGE "Pass 3. Processing behavioral statements."
@@ -10,14 +16,19 @@ UPDATEPROGRESS 80
 MESSAGE "Running Optimizer."
 MESSAGE "ELB/DAG code generating."
 MESSAGE_SP VCP2113 "Module \$root found in current working library."
+UPDATEPROGRESS 81
 UPDATEPROGRESS 83
+UPDATEPROGRESS 85
 UPDATEPROGRESS 86
+UPDATEPROGRESS 88
 UPDATEPROGRESS 90
+UPDATEPROGRESS 91
 UPDATEPROGRESS 93
+UPDATEPROGRESS 95
 UPDATEPROGRESS 96
+MESSAGE "Unit top modules: CTRL_ex_time_tb FSM_ex_control_tb Timer_counter_tb camera_controller_tb."
+MESSAGE "$root top modules: CTRL_ex_time_tb FSM_ex_control_tb Timer_counter_tb camera_controller_tb."
 UPDATEPROGRESS 100
-MESSAGE "Unit top modules: FSM_ex_control_tb."
-MESSAGE "$root top modules: CTRL_ex_time_tb Timer_counter FSM_ex_control_tb."
 ENDPROGRESS Compiling...
 SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time: 0[s]."
 WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."

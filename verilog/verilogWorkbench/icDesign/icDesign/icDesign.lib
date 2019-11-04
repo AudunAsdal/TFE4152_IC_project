@@ -1,67 +1,95 @@
-timestamp=1572870792387
+timestamp=1572875904668
 
 [~A]
 C:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*440*1056
-LastVerilogToplevel=FSM_ex_control_tb
-ModifyID=18
+LastVerilogToplevel=camera_controller_tb
+ModifyID=54
 Version=74
 c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time.v=0*29555*30185
 c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time_tb.v=0*31217*31946
-c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*27503*28439
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*54460*55460
 c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v_CTRL_ex_time.v=0*14558*15637
-c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control_tb.v=0*34854*35633
-c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/Timer_counter.v=0*33074*33769
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v_CTRL_ex_time.v_CTRL_ex_time_tb.v_Timer_counter.v_FSM_ex_control_tb.v_Timer_counter_tb.v_camera_controller_tb.v=0*135681*138025
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v_CTRL_ex_time.v_CTRL_ex_time_tb.v_Timer_counter.v_FSM_ex_control_tb.v_Timer_counter_tb.v_camera_controller_tb.v_camera_controller.v=0*140990*143514
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control_tb.v=0*52418*53277
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/Timer_counter.v=0*65863*66590
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/Timer_counter_tb.v=0*67672*68434
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/camera_controller_tb.v=0*132261*133251
 
 [$root]
-A/$root=22|||1*43412
-BinI32/$root=3*34307
-SLP=3*34411
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216d0e2a646d878a143eac9d7bb9e2e23b8
+A/$root=22|||1*230781
+BinI32/$root=3*193884
+SLP=3*193988
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c92160efaa74e33fbce4d06954aab30701532
 
 [CTRL_ex_time]
-A/CTRL_ex_time=22|./../src/CTRL_ex_time.v|1|1*38572
-BinI32/CTRL_ex_time=3*30234
+A/CTRL_ex_time=22|./../src/CTRL_ex_time.v|1|1*233078
+BinI32/CTRL_ex_time=3*196241
 R=./../src/CTRL_ex_time.v|1
-SLP=3*30806
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8bd8ce3217295a365562f61b61e9f7488e
+SLP=3*196813
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8bb21d06ca70b36e282f2fb119745bca97
 
 [CTRL_ex_time_tb]
-A/CTRL_ex_time_tb=22|./../src/CTRL_ex_time_tb.v|2|1*40254
-BinI32/CTRL_ex_time_tb=3*31378
+A/CTRL_ex_time_tb=22|./../src/CTRL_ex_time_tb.v|2|1*234370
+BinI32/CTRL_ex_time_tb=3*197213
 R=./../src/CTRL_ex_time_tb.v|2
-SLP=3*32277
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|622df5ce6e8bbd2494d9b30ec8c0ad4a77ba627ebf22b57ad99e5f65c120875146cb57ad627e075918624f9b94b55e3f
+SLP=3*198112
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|622df5ce6e8bbd2494d9b30ec8c0ad4a77ba627ebf22b57ad99e5f65c1208751ec40764f1cfea14f835313be55acedfe
 
 [FSM_ex_control]
-A/FSM_ex_control=22|./../src/FSM_ex_control.v|2|1*36390
-BinI32/FSM_ex_control=3*28110
+A/FSM_ex_control=22|./../src/FSM_ex_control.v|2|1*231203
+BinI32/FSM_ex_control=3*194056
 R=./../src/FSM_ex_control.v|2
-SLP=3*29147
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb699d3855a9f0f87a3457074ab7e35f63c7
+SLP=3*195178
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb6936b22479a4f805dd8229854a7860c19e
 
 [FSM_ex_control_tb]
-A/FSM_ex_control_tb=22|./../src/FSM_ex_control_tb.v|2|1*43818
-BinI32/FSM_ex_control_tb=3*34479
+A/FSM_ex_control_tb=22|./../src/FSM_ex_control_tb.v|2|1*237200
+BinI32/FSM_ex_control_tb=3*200063
 R=./../src/FSM_ex_control_tb.v|2
-SLP=3*35258
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75a04a464e1aa7acab24793d353f9054759c0b7d94a0584fce2923fca652f1df98
+SLP=3*201158
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75a04a464e1aa7acab24793d353f905475a06d1d063a3b9a083e69037f7706f67c
 
 [Timer_counter]
-A/Timer_counter=22|./../src/Timer_counter.v|2|1*41984
-BinI32/Timer_counter=3*33083
+A/Timer_counter=22|./../src/Timer_counter.v|2|1*235694
+BinI32/Timer_counter=3*198746
 R=./../src/Timer_counter.v|2
-SLP=3*33837
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|aa52455802476909eaa1db5941f0ca8c94738f125c79b658c8fbb977669b10222ccb794fb09a2a29b5bdb113a8b599a3
+SLP=3*199556
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|aa52455802476909eaa1db5941f0ca8c94738f125c79b658c8fbb977669b10224ab1545f47290ea2dcfcd43ba7caba08
+
+[Timer_counter_tb]
+A/Timer_counter_tb=22|./../src/Timer_counter_tb.v|2|1*238927
+BinI32/Timer_counter_tb=3*201872
+R=./../src/Timer_counter_tb.v|2
+SLP=3*202780
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|5d2442f5d0839fa3fa743ab14deb6db9d9fdeb222e50ec00d49f4123e2f2100e6eb53259bd1ff1e303f4f4803228f877
+
+[camera_controller]
+A/camera_controller=22|./../src/camera_controller.v|1|1*242128
+BinI32/camera_controller=3*204922
+R=./../src/camera_controller.v|1
+SLP=3*205038
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e831716c85dbf5628535e874dcc13a2fc93d7edd15894b862425c70640e2d0d738b0235
+
+[camera_controller_tb]
+A/camera_controller_tb=22|./../src/camera_controller_tb.v|2|1*240318
+BinI32/camera_controller_tb=3*203276
+R=./../src/camera_controller_tb.v|2
+SLP=3*204305
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c3ec2255110f63325f288f546e831716cf6f97a6e1a7ccfdcd1ce786076e2ff06907e1b0950f4ba55bf4dabae6eda73d
 
 [~MFT]
-0=4|0icDesign.mgf|35633|16155
-1=3|1icDesign.mgf|43818|37576
-3=6|3icDesign.mgf|35258|28626
+0=11|0icDesign.mgf|143514|81737
+1=17|1icDesign.mgf|242128|230781
+3=34|3icDesign.mgf|205038|193884
 
 [~U]
-$root=12|0*34441|
-CTRL_ex_time=12|0*29310|
-CTRL_ex_time_tb=12|0*31038||0x10
-FSM_ex_control=12|0*27226||0x10
-FSM_ex_control_tb=12|0*34671||0x10
-Timer_counter=12|0*32834||0x10
+$root=12|0*138873|
+CTRL_ex_time=12|0*139412|
+CTRL_ex_time_tb=12|0*139657||0x10
+FSM_ex_control=12|0*139135|
+FSM_ex_control_tb=12|0*140085||0x10
+Timer_counter=12|0*139836|
+Timer_counter_tb=12|0*140268||0x10
+camera_controller=12|0*140676|
+camera_controller_tb=12|0*140448||0x10

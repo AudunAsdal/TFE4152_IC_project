@@ -1,13 +1,19 @@
-18
+54
 ~M 0 "" 0 $root
 ~A 1 "" 0 $root
 ~M 1 "./../src/CTRL_ex_time.v" 1 CTRL_ex_time
 ~A 1 "./../src/CTRL_ex_time.v" 1 CTRL_ex_time
 ~M 3 "./../src/CTRL_ex_time_tb.v" 2 CTRL_ex_time_tb
 ~A 1 "./../src/CTRL_ex_time_tb.v" 2 CTRL_ex_time_tb
-~M 3 "./../src/FSM_ex_control.v" 2 FSM_ex_control
+~M 1 "./../src/FSM_ex_control.v" 2 FSM_ex_control
 ~A 1 "./../src/FSM_ex_control.v" 2 FSM_ex_control
 ~M 3 "./../src/FSM_ex_control_tb.v" 2 FSM_ex_control_tb
 ~A 1 "./../src/FSM_ex_control_tb.v" 2 FSM_ex_control_tb
-~M 3 "./../src/Timer_counter.v" 2 Timer_counter
+~M 1 "./../src/Timer_counter.v" 2 Timer_counter
 ~A 1 "./../src/Timer_counter.v" 2 Timer_counter
+~M 3 "./../src/Timer_counter_tb.v" 2 Timer_counter_tb
+~A 1 "./../src/Timer_counter_tb.v" 2 Timer_counter_tb
+~M 1 "./../src/camera_controller.v" 1 camera_controller
+~A 1 "./../src/camera_controller.v" 1 camera_controller
+~M 3 "./../src/camera_controller_tb.v" 2 camera_controller_tb
+~A 1 "./../src/camera_controller_tb.v" 2 camera_controller_tb

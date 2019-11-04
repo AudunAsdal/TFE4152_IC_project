@@ -53,6 +53,15 @@ Selected=
 /CTRL_ex_time_tb.v=-1
 /Timer_counter.v=-1
 /FSM_ex_control_tb.v=-1
+/Timer_counter_tb.v=-1
+/FSM_testbench_sim.asdb=-1
+/FSM_testbench_sim.awc=-1
+/Timer_counter_sim.asdb=-1
+/Timer_counter_sim.awc=-1
+/camera_controller_tb.v=-1
+/camera_controller.v=-1
+/camera_controller_sim.asdb=-1
+/camera_controller_sim.awc=-1
 
 [Files.Data]
 .\src\FSM_ex_control.v=Verilog Source Code
@@ -62,4 +71,13 @@ Selected=
 .\src\CTRL_ex_time_tb.v=Verilog Source Code
 .\src\Timer_counter.v=Verilog Source Code
 .\src\FSM_ex_control_tb.v=Verilog Source Code
+.\src\Timer_counter_tb.v=Verilog Source Code
+.\src\FSM_testbench_sim.asdb=Accelerated Waveform File
+.\src\FSM_testbench_sim.awc=Accelerated Waveform Configuration
+.\src\Timer_counter_sim.asdb=Accelerated Waveform File
+.\src\Timer_counter_sim.awc=Accelerated Waveform Configuration
+.\src\camera_controller_tb.v=Verilog Source Code
+.\src\camera_controller.v=Verilog Source Code
 
+.\src\camera_controller_sim.asdb=Accelerated Waveform File
+.\src\camera_controller_sim.awc=Accelerated Waveform Configuration
