@@ -1,48 +1,67 @@
-timestamp=1572365216686
+timestamp=1572870792387
 
 [~A]
 C:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*440*1056
-LastVerilogToplevel=CTRL_ex_time_tb
-ModifyID=13
+LastVerilogToplevel=FSM_ex_control_tb
+ModifyID=18
 Version=74
-c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time.v=0*25487*26357
-c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*3913*4577
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time.v=0*29555*30185
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/CTRL_ex_time_tb.v=0*31217*31946
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v=0*27503*28439
 c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control.v_CTRL_ex_time.v=0*14558*15637
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/FSM_ex_control_tb.v=0*34854*35633
+c:/Users/Ole Sivert/OneDrive - NTNU/IC/TFE4152_IC_project/verilog/verilogWorkbench/icDesign/src/Timer_counter.v=0*33074*33769
 
 [$root]
-A/$root=22|||1*32991
-BinI32/$root=3*25260
-SLP=3*25364
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c921693800a12f8c608e574fe7e84ca9a99ba
+A/$root=22|||1*43412
+BinI32/$root=3*34307
+SLP=3*34411
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|c73a565f2ade592f8ac1c68f484c9216d0e2a646d878a143eac9d7bb9e2e23b8
 
 [CTRL_ex_time]
-A/CTRL_ex_time=22|./../src/CTRL_ex_time.v|1|1*33381
-BinI32/CTRL_ex_time=3*25432
+A/CTRL_ex_time=22|./../src/CTRL_ex_time.v|1|1*38572
+BinI32/CTRL_ex_time=3*30234
 R=./../src/CTRL_ex_time.v|1
-SLP=3*26004
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8b4676a7526d30bd119db453e07b69c180
+SLP=3*30806
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|7523f09ed7c29459b2cd08fcd169a1088e55b9384e2152326c8be3af1787cf8bd8ce3217295a365562f61b61e9f7488e
 
 [CTRL_ex_time_tb]
-A/CTRL_ex_time_tb=22|./../src/CTRL_ex_time.v|24|1*34673
-BinI32/CTRL_ex_time_tb=3*26404
-R=./../src/CTRL_ex_time.v|24
-SLP=3*27303
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|622df5ce6e8bbd2494d9b30ec8c0ad4a77ba627ebf22b57ad99e5f65c12087519d214f7a9a661cdb03c59821e1a94805
+A/CTRL_ex_time_tb=22|./../src/CTRL_ex_time_tb.v|2|1*40254
+BinI32/CTRL_ex_time_tb=3*31378
+R=./../src/CTRL_ex_time_tb.v|2
+SLP=3*32277
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|622df5ce6e8bbd2494d9b30ec8c0ad4a77ba627ebf22b57ad99e5f65c120875146cb57ad627e075918624f9b94b55e3f
 
 [FSM_ex_control]
-A/FSM_ex_control=22|./../src/FSM_ex_control.v|25|1*17001
-BinI32/FSM_ex_control=3*12029
-R=./../src/FSM_ex_control.v|25
-SLP=3*12262
-Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb69a2bde964218c8ab1748a63bdbfd395a8
+A/FSM_ex_control=22|./../src/FSM_ex_control.v|2|1*36390
+BinI32/FSM_ex_control=3*28110
+R=./../src/FSM_ex_control.v|2
+SLP=3*29147
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75f171980b030435a74b69e1dfef09fb699d3855a9f0f87a3457074ab7e35f63c7
+
+[FSM_ex_control_tb]
+A/FSM_ex_control_tb=22|./../src/FSM_ex_control_tb.v|2|1*43818
+BinI32/FSM_ex_control_tb=3*34479
+R=./../src/FSM_ex_control_tb.v|2
+SLP=3*35258
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|6eea25c209747ab0df3c54983bfd0d75a04a464e1aa7acab24793d353f9054759c0b7d94a0584fce2923fca652f1df98
+
+[Timer_counter]
+A/Timer_counter=22|./../src/Timer_counter.v|2|1*41984
+BinI32/Timer_counter=3*33083
+R=./../src/Timer_counter.v|2
+SLP=3*33837
+Version=10.5.217.6767 (Windows)|0000000b789cd3f53752d02d2e33ca3634020010aa02e5|aa52455802476909eaa1db5941f0ca8c94738f125c79b658c8fbb977669b10222ccb794fb09a2a29b5bdb113a8b599a3
 
 [~MFT]
-0=7|0icDesign.mgf|26357|13277
-1=6|1icDesign.mgf|34673|31629
-3=12|3icDesign.mgf|27303|24829
+0=4|0icDesign.mgf|35633|16155
+1=3|1icDesign.mgf|43818|37576
+3=6|3icDesign.mgf|35258|28626
 
 [~U]
-$root=12|0*24865|
-CTRL_ex_time=12|0*25063|
-CTRL_ex_time_tb=12|0*25308||0x10
-FSM_ex_control=12|0*13876||0x10
+$root=12|0*34441|
+CTRL_ex_time=12|0*29310|
+CTRL_ex_time_tb=12|0*31038||0x10
+FSM_ex_control=12|0*27226||0x10
+FSM_ex_control_tb=12|0*34671||0x10
+Timer_counter=12|0*32834||0x10

@@ -1,7 +1,8 @@
 
 module Timer_counter(Initial, Start, Clk, Reset, Ovf5);
-    input(Initial, Start, Clk, Reset);
-    output(Ovf5);
+    input Initial, Start, Clk, Reset;
+	output Ovf5;
+    reg Ovf5;
 
     reg[4:0] Current_time;
 

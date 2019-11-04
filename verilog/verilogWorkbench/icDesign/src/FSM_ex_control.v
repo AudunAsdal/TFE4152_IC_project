@@ -1,8 +1,8 @@
 
 module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start, Ovf5);
 
-    input(Init, Clk, Reset, Ovf5);
-    output(NRE_1, NRE_2, ADC, Expose, Erase, Start)
+    input Init, Clk, Reset, Ovf5;
+    output NRE_1, NRE_2, ADC, Expose, Erase, Start;
 
     reg [3:0] timing;
 
@@ -16,7 +16,7 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
         end
     end
 
-    always @(posedge Ovf5 || posedge Reset)begin // exposure time over
+    always @(posedge Ovf5 , posedge Reset)begin // exposure time over
         Expose <= 0;
         timing <= 0;
         if (Reset) begin
@@ -26,13 +26,13 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
     end
 
     always @(posedge Clk)begin
-        if (idle == 1 && Expose == 0)begin
+        if (Start == 1 && Expose == 0)begin
             timing++;
         end
         if (Start && ~Expose) begin        // readout pixels
-            case (timing)begin
+            case (timing)
                 1: NRE_1    <= 1;
-                2: ADC      <= 1;
+                2: ADC      <= 1;  
                 3: ADC      <= 0;
                 4: NRE_1    <= 0;
                 5: NRE_2    <= 1;

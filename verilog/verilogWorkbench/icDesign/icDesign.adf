@@ -37,20 +37,6 @@ CompileWithDebug=0
 icDesign=.
 Active_lib=
 
-[Files]
-/FSM_ex_control.v=-1
-/CTRL_ex_time.v=-1
-/simulator_1.asdb=-1
-/simulator_1.awc=-1
-/CTRL_ex_time_tb.v=-1
-
-[Files.Data]
-.\src\FSM_ex_control.v=Verilog Source Code
-.\src\CTRL_ex_time.v=Verilog Source Code
-.\src\simulator_1.asdb=Accelerated Waveform File
-.\src\simulator_1.awc=Accelerated Waveform Configuration
-.\src\CTRL_ex_time_tb.v=Verilog Source Code
-
 [SpecTracer]
 WindowVisible=0
 
@@ -58,4 +44,22 @@ WindowVisible=0
 HierarchyInformation=
 ShowHide=ShowTopLevel
 Selected=
+
+[Files]
+/FSM_ex_control.v=-1
+/CTRL_ex_time.v=-1
+/simulator_1.asdb=-1
+/simulator_1.awc=-1
+/CTRL_ex_time_tb.v=-1
+/Timer_counter.v=-1
+/FSM_ex_control_tb.v=-1
+
+[Files.Data]
+.\src\FSM_ex_control.v=Verilog Source Code
+.\src\CTRL_ex_time.v=Verilog Source Code
+.\src\simulator_1.asdb=Accelerated Waveform File
+.\src\simulator_1.awc=Accelerated Waveform Configuration
+.\src\CTRL_ex_time_tb.v=Verilog Source Code
+.\src\Timer_counter.v=Verilog Source Code
+.\src\FSM_ex_control_tb.v=Verilog Source Code
 

@@ -1,3 +1,5 @@
 i<>.\src\FSM_ex_control.v
 i<>.\src\CTRL_ex_time.v
 i<>.\src\CTRL_ex_time_tb.v
+i<>.\src\Timer_counter.v
+i<>.\src\FSM_ex_control_tb.v
