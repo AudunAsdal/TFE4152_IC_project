@@ -29,8 +29,11 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
         Expose <= 0;
         timing <= 0;
         if (Reset) begin
-            Start <= 0;
-            Erase <= 1;
+            Start   <= 0;
+            Erase   <= 1;
+            NRE_1   <= 0;
+            NRE_2   <= 0;
+            ADC     <= 0;
         end
     end
 
