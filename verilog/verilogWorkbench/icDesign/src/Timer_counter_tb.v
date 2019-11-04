@@ -1,10 +1,10 @@
 `timescale 1ms/1ms
 module Timer_counter_tb;
-    reg [4:0] Initial; 
+    reg [4:0] EX_time; 
     reg Start, Clk, Reset;
 	reg Ovf5;
 	Timer_counter DUT(
-        .Initial(Initial), 
+        .EX_time(EX_time), 
         .Start(Start), 
         .Clk(Clk), 
         .Ovf5(Ovf5), 
@@ -25,7 +25,7 @@ module Timer_counter_tb;
 	initial begin
         Clk = 0;
         Reset = 0;
-        Initial = 10;
+        EX_time = 10;
         Start = 0;
         #1
         Start = 1;
