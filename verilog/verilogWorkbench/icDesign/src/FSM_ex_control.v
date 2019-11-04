@@ -8,6 +8,15 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
 
     reg Start, Erase, Expose, NRE_1, NRE_2, ADC;
 
+    initial begin
+        NRE_1   <= 0;
+        NRE_2   <= 0;
+        ADC     <= 0;
+        Expose  <= 0;
+        Erase   <= 0;
+        Start   <= 0;
+    end
+
     always @(posedge Init) begin    // start exposure and timer
         if (Start == 0)begin
             Start = 1;
