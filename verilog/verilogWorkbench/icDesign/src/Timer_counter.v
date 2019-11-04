@@ -4,6 +4,9 @@ module Timer_counter(Initial, Start, Clk, Reset, Ovf5);
 	output Ovf5;
     reg Ovf5;
 
+    initial
+        Ovf5 <= 0;
+
     reg[4:0] Current_time;
 
     always @(posedge Start)begin 

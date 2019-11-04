@@ -13,7 +13,7 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
         NRE_2   <= 0;
         ADC     <= 0;
         Expose  <= 0;
-        Erase   <= 0;
+        Erase   <= 1;
         Start   <= 0;
     end
 
@@ -49,7 +49,7 @@ module FSM_ex_control (Init, Clk ,Reset ,NRE_1 ,NRE_2 ,ADC ,Expose ,Erase, Start
                 7: ADC      <= 0;
                 8: NRE_2    <= 0;
                 9: begin
-                    Erase   <= 0;
+                    Erase   <= 1;
                     Start    = 0;
                 end
             endcase
